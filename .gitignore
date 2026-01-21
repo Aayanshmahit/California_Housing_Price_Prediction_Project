@@ -238,3 +238,7 @@ logs/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Local IDE / Anaconda artifacts
+.virtual_documents/
+anaconda_projects/

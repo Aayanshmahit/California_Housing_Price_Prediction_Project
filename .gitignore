@@ -210,18 +210,28 @@ __marimo__/
 # ML / Data Science ignores
 # =========================
 
-# Trained models & pipelines
+# Trained models & weights
 *.pkl
 *.joblib
 *.h5
 *.onnx
+*.pt
+*.pth
+*.ckpt
 
-# Generated data
-input.csv
-output.csv
-*.csv
+models/
+artifacts/
+checkpoints/
 
-# Experiment outputs
+# NumPy / array data
+*.npy
+*.npz
+
+# Large generated datasets (keep samples only)
+data/processed/
+data/interim/
+
+# Logs & experiment tracking
 runs/
 logs/
 
